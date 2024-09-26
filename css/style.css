@@ -1,0 +1,83 @@
+body{
+    font-family: "微软雅黑","黑体",sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{color :red;}
+#container{
+    width: 1020px;
+    margin: 0 auto;
+}
+nav{
+    height: 2.5rem;
+    margin-bottom: 12px;
+    background-color: #2a99d1;
+}
+nav a{
+    color: white;
+    font-size: 16px;
+    line-height: 2.5;
+    text-align: center;
+    padding: 0 2rem;
+}
+footer{
+    clear: both;
+    color: #555666;
+    text-align: center;
+    line-height: 20px;
+    background-color: #f0f5f8;
+}
+main{
+    width: 100%;
+}
+#left{
+    width: 75%;
+    float: left;
+}
+#banner{
+    width: 100%;
+    background-color: black;
+    margin-bottom: lem;
+}
+#interact{
+    float: right;
+}
+#right{
+    width: 23%;
+    float: left;
+    margin-left: 2%;
+}
+#right section{
+    border: 1px solid #2a99d1;
+    margin-bottom: 1em;
+}
+#right section h4{
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #fff;
+    line-height: 30px;
+    background-color: #2a99d1;
+    margin: 0;
+    padding: 0 0.5em;
+}
+#introduce div , #album>div{
+    text-align: center;
+}
+#introduce p , #blog a{
+    margin: 0.25em 0.5em;
+}
+#introduce{
+    background-color: #ebf4f9;
+}
+#introduce img{
+    width: 120px;
+    height: 120px;
+}
+#blog a{
+    display: inline-block;
+}
